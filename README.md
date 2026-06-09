@@ -13,9 +13,8 @@ Evaluated models using Confusion Matrix, F1-Score, and ROC Curve
 Used SHAP to explain 5 individual predictions
 
 # Results and Findings:
-Model                     F1-Score         ROC-AUC
-Logistic Regression       0.41             0.89
-Random Forest             0.50             0.93
+Random Forest got F1-Score of 0.50 and ROC-AUC of 0.93
+Logistic Regression got F1-Score of 0.41 and ROC-AUC of 0.89
 
 Random Forest performed better than Logistic Regression
 Most important features were: call duration, account balance, age
