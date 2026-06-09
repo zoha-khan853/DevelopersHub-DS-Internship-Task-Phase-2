@@ -44,3 +44,23 @@ Cluster 3 — Low Income High Spenders — offer installment payment options
 Cluster 4 — High Income High Spenders — treat as VIP with exclusive offers
 PCA and t-SNE both clearly showed 5 well separated customer groups
 Annual Income and Spending Score were the most important features
+
+# Task 4: Loan Default Risk with Business Cost Optimization
+
+# Objective:
+Predict loan default likelihood and optimize the decision threshold to minimize financial risk for the bank.
+
+# My Approach:
+Loaded and explored Loan Default dataset
+Cleaned data by dropping high missing columns and filling rest with median
+Encoded all categorical columns using LabelEncoder
+Trained Logistic Regression and XGBoost models
+Evaluated models using Confusion Matrix, F1 Score and ROC Curve
+Defined business costs and adjusted threshold to minimize total cost
+
+# Results and Findings
+XGBoost outperformed Logistic Regression with higher F1 Score and ROC AUC
+Loan amount, income and interest rate were the most important features
+Lower income and higher loan amount customers have higher default risk
+Best threshold reduced total business cost significantly
+XGBoost with optimized threshold is recommended for loan default prediction
