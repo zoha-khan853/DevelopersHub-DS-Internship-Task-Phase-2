@@ -20,3 +20,27 @@ Random Forest performed better than Logistic Regression
 Most important features were: call duration, account balance, age
 Longer phone calls strongly predict subscription
 Customers contacted too many times are less likely to subscribe
+
+# Task 2: Customer Segmentation Using Unsupervised Learning
+# Objective:
+Segment mall customers into distinct groups based on Annual Income and Spending Score using KMeans clustering. These segments help businesses create targeted marketing strategies for each customer group.
+
+# My Approach:
+Loaded Mall Customers Dataset — 200 records and 5 columns
+Performed EDA by plotting age, income and spending score distributions
+Scaled features using StandardScaler for better KMeans performance
+Used Elbow Method to find the best number of clusters which was 5
+Applied KMeans Clustering and assigned each customer to a cluster
+Measured cluster quality using Silhouette Score
+Visualized clusters using PCA and t-SNE
+Proposed marketing strategy for each segment
+
+# Results and Findings:
+Successfully divided 200 customers into 5 distinct segments
+Cluster 0 — Low Income Low Spenders — offer discounts and budget deals
+Cluster 1 — High Income Low Spenders — target with premium campaigns
+Cluster 2 — Medium Income Medium Spenders — offer membership programs
+Cluster 3 — Low Income High Spenders — offer installment payment options
+Cluster 4 — High Income High Spenders — treat as VIP with exclusive offers
+PCA and t-SNE both clearly showed 5 well separated customer groups
+Annual Income and Spending Score were the most important features
