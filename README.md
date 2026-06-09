@@ -2,7 +2,7 @@
 
 # Task 1: Term Deposit Subscription Prediction
 # Task Objective:
-Predict whether a bank customer will subscribe to a term deposit using machine learning. This is a binary classification problem — Yes (1) or No (0).
+Predict whether a bank customer will subscribe to a term deposit as a result of marketing compaign.
 
 # My Approach:
 Loaded the Bank Marketing Dataset from UCI (45,211 rows, 17 columns)
@@ -23,7 +23,7 @@ Customers contacted too many times are less likely to subscribe
 
 # Task 2: Customer Segmentation Using Unsupervised Learning
 # Objective:
-Segment mall customers into distinct groups based on Annual Income and Spending Score using KMeans clustering. These segments help businesses create targeted marketing strategies for each customer group.
+Clusters customer based on spending habits and propose marketing strategies tailored to each segment .
 
 # My Approach:
 Loaded Mall Customers Dataset — 200 records and 5 columns
@@ -48,7 +48,7 @@ Annual Income and Spending Score were the most important features
 # Task 4: Loan Default Risk with Business Cost Optimization
 
 # Objective:
-Predict loan default likelihood and optimize the decision threshold to minimize financial risk for the bank.
+Predict the likelihood of a loan default and optimize the decision threshold basec on cost -benefit analysis.
 
 # My Approach:
 Loaded and explored Loan Default dataset
